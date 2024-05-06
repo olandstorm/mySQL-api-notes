@@ -1,0 +1,26 @@
+@import 'abstracts/colors';
+@import 'base/base';
+@import 'components/buttons';
+@import 'pages/start';
+@import 'pages/loggedin';
+@import 'components/savedcard';
+@import 'components/popup';
+@import 'pages/createdoc';
+@import 'pages/previewdoc';
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@media (hover: hover) {
+  @import 'abstracts/hover';
+}

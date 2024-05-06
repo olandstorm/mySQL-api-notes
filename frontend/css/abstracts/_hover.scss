@@ -1,0 +1,24 @@
+button:hover {
+  border: 2px solid $blueGrey;
+  color: $blueGrey;
+}
+
+.no_border_btn:hover {
+  border: none;
+  color: $greenBlue;
+}
+
+.login_btn:hover {
+  color: $greenBlue;
+  border-color: $greenBlue;
+}
+
+.preview_btn:hover,
+.edit_btn:hover {
+  border: 1px solid $blueGrey;
+}
+
+.delete_btn:hover {
+  border: none;
+  color: $redGrey;
+}

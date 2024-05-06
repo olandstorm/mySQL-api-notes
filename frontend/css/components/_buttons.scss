@@ -1,0 +1,79 @@
+button {
+  background-color: transparent;
+  border: 2px solid $darkGrey;
+  color: $darkGrey;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 8px 19px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: $lightBlue;
+  border: 2px solid $blueGrey;
+  color: $lightGrey;
+}
+
+.no_border_btn {
+  margin-top: 5vh;
+  color: $lightGrey;
+  text-transform: none;
+  border: none;
+  padding: 0;
+}
+
+.no_border_btn:active {
+  border: none;
+  background-color: transparent;
+  color: $blueGrey;
+}
+
+.no_border_btn:visited {
+  color: $redGrey;
+}
+
+.login_btn {
+  color: $lightGrey;
+  border-color: $lightGrey;
+  margin-top: 30px;
+}
+
+.login_btn:active:hover {
+  color: $darkGrey;
+  border-color: $darkGrey;
+}
+
+.edit_btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  border: 1px solid $darkGrey;
+}
+
+.preview_btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  border: 1px solid $darkGrey;
+}
+
+.preview_btn:active,
+.edit_btn:active {
+  border: 1px solid $blueGrey;
+}
+
+.delete_btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  border: none;
+  color: rgba($darkGrey, 0.3);
+}
+.delete_btn:active {
+  border: none;
+  background-color: transparent;
+}

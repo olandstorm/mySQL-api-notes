@@ -1,0 +1,76 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus {
+  outline: 1.5px solid $lightBlue;
+}
+
+body {
+  font-family: 'Jaldi', sans-serif;
+  background-color: $lightGrey;
+  color: $darkGrey;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: $lightBlue;
+}
+
+a:hover {
+  color: $greenBlue;
+}
+
+a:active {
+  color: $blueGrey;
+}
+
+a:visited {
+  color: $redGrey;
+}
+
+a:visited:hover {
+  color: $greenBlue;
+}
+
+input {
+  background: $lightYellow;
+  border: 2px solid $darkGrey;
+  color: $darkGrey;
+  border-radius: 4px;
+  padding: 8px 10px;
+}
+
+input:hover {
+  border: 2px solid $blueGrey;
+}
+input:focus {
+  background: $lightGrey;
+}
+
+::placeholder {
+  color: $lightBlue;
+}

@@ -1,0 +1,30 @@
+.saved_doc_card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba($blueGrey, 0.1);
+  width: 280px;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 250px;
+  position: relative;
+  padding: 20px 40px;
+  row-gap: 20px;
+  border-radius: 10px;
+
+  .saved_doc_title {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .saved_doc_text {
+    width: 100%;
+  }
+
+  .btn_container {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    column-gap: 15px;
+  }
+}

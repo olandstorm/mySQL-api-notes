@@ -1,0 +1,25 @@
+.preview_header {
+  font-size: 2rem;
+}
+
+.preview_container {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  align-items: center;
+  background-color: rgba($lightGrey, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  padding: 20px 40px 200px;
+
+  .doc_created_preview {
+    align-self: flex-end;
+  }
+
+  .doc_title_preview {
+    font-size: 2rem;
+  }
+  .doc_text_preview {
+    font-size: 1.2rem;
+  }
+}

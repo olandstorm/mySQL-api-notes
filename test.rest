@@ -1,0 +1,60 @@
+// CREATE A NEW USER
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "userName": "USER",
+  "userEmail": "USER@mail.com",
+  "password": "test"
+}
+
+###
+
+// LOG IN USER
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+  "email": "USER@mail.com",
+  "password": "test"
+}
+
+###
+
+// CREATE A NEW DOC
+POST http://localhost:3000/docs/new
+Content-Type: application/json
+
+{
+  "userId": "USER",
+  "docTitle": "TITLE",
+  "docText": "Text"
+}
+
+###
+
+// GET ALL DOCS BY USER
+GET http://localhost:3000/docs/:userId
+
+###
+
+// GET SINGLE DOC BY USER
+GET http://localhost:3000/docs/:userId/:docId
+
+###
+
+// SOFT DELETE SINGLE DOC
+DELETE http://localhost:3000/docs/delete/:docId
+
+###
+
+// SOFT DELETE SINGLE DOC
+PUT http://localhost:3000/docs/:docId
+Content-Type: application/json
+
+{
+  "docTitle": "TITLE",
+  "docText": "Text"
+}
+
+###

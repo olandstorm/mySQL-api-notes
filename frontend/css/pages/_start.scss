@@ -1,0 +1,46 @@
+.start_container {
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 50px 0;
+  background-image: url('assets/img/bg_black.webp');
+  background-color: $darkGrey;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 10vh;
+
+  .start_logo {
+    width: 40%;
+    min-width: 100px;
+    max-width: 650px;
+    height: auto;
+    align-self: flex-start;
+    margin-left: 30px;
+  }
+
+  .start_header {
+    color: $lightGrey;
+    font-weight: 400;
+  }
+
+  .login_container {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    color: $lightGrey;
+    min-height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 15px;
+
+    .login_label {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
